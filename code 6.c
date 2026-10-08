@@ -1,21 +1,19 @@
 #include <stdio.h>
-
 int main()
-
 {
-    int no1;
-    int no2;
-    int no3;
-    int sum;
-    float avg;
-    printf("enter the number ");
-    scanf("%d",&no1);
-    printf("enter the number ");
-    scanf("%d",&no2);
-    printf("enter the number ");
-    scanf("%d",&no3);
-    sum=no1+no2+no3;
-    avg=sum/3;
-    printf("the avg is:%f",avg);
+    int l;
+    int b;
+    int c;
+    int a;
+    float d;
+    printf("enter the first no: ");
+    scanf("%d",&l);
+    printf("enter the second no: ");
+    scanf("%d",&b);
+    printf("enter the third no: ");
+    scanf("%d",&c);
+    a=l+b+c;
+    d=a/3;
+    printf("the avg is :%f",d);
     return 0;
 }

@@ -1,17 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
-
 {
-
-    int length;
-    int breadth;
-        int p;
-        printf("enter the length ");
-        scanf("%d",&length);
-        printf("enter the breadth:");
-        scanf("%d",&breadth);
-        p =(length*breadth);
-        printf("area of rectangle is : %d",p);
-        return  0;
-
+    int l;
+    int b;
+    int c;
+    printf("enter the length: ");
+    scanf("%d",&l);
+    printf("enter the breath: ");
+    scanf("%d",&b);
+    c=l*b;
+    printf("the are is :%d",c);
+    return 0;
 }
